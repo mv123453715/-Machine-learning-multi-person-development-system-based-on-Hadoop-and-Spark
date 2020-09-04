@@ -32,3 +32,8 @@
 
 
 ## Step4 安裝 Anaconda
++[ wget https://repo.continuum.io/archive/Anaconda3-5.2.0-Linux-x86_64.sh -O /tmp/anaconda3.sh ]
++[ chmod +x /tmp/anaconda3.sh ]
++[sudo /tmp/anaconda3.sh -u ]
+
+
