@@ -19,14 +19,14 @@
 
 ## Step3 設定與啟動spark
 + [sudo nano /opt/spark-2.3.1-bin-hadoop2.7/conf/spark-env.sh]
-####如下圖
+
 ![image](https://github.com/mv123453715/-Machine-learning-multi-person-development-system-based-on-Hadoop-and-Spark/blob/master/spark%E8%A8%AD%E5%AE%9A.JPG)
 + hdfs dfs -mkdir -p /tmp/spark-events
 + hdfs dfs -chmod -R 777 /tmp/
 + sudo nano /opt/spark-2.3.1-bin-hadoop2.7/conf/spark-defaults.conf
-####如下圖
+
 ![image](https://github.com/mv123453715/-Machine-learning-multi-person-development-system-based-on-Hadoop-and-Spark/blob/master/spark%E8%A8%AD%E5%AE%9Aserver.JPG)
-+ [startspkb]
++ startspkb
 
 ![image](https://github.com/mv123453715/-Machine-learning-multi-person-development-system-based-on-Hadoop-and-Spark/blob/master/%E5%95%9F%E5%8B%95spark.png)
 
