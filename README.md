@@ -54,6 +54,7 @@
 ![image](https://github.com/mv123453715/-Machine-learning-multi-person-development-system-based-on-Hadoop-and-Spark/blob/master/spark%E8%A8%AD%E5%AE%9Apython.JPG)
 + starthdfs
 + startspkb
++ pyspark --master spark://spkmb:7077 --total-executor-cores 1 --executor-cores 1 --executor-memory 512m
 
 
 
