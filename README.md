@@ -13,9 +13,9 @@
 
 
 ## Step2 下載spark
-+ [ ssh localhost -p 22200]
-+ [ wget https://archive.apache.org/dist/spark/spark-2.3.1/spark-2.3.1-bin-hadoop2.7.tgz]
-+ [ sudo tar xvfz spark-2.3.1-bin-hadoop2.7.tgz -C /opt/]
++  ssh localhost -p 22200
++  wget https://archive.apache.org/dist/spark/spark-2.3.1/spark-2.3.1-bin-hadoop2.7.tgz
++  sudo tar xvfz spark-2.3.1-bin-hadoop2.7.tgz -C /opt/
 
 ## Step3 設定與啟動spark
 + [sudo nano /opt/spark-2.3.1-bin-hadoop2.7/conf/spark-env.sh]
