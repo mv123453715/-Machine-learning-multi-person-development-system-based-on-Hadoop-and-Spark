@@ -70,7 +70,7 @@
 
 ## Step9 設定Jupyter
 + 開nwe 終端機
-+ ssh dsa103@localhost -p 22103+
++ ssh dsa103@localhost -p 22103
 + jupyter notebook --generate-config
 + jupyter notebook password
 + ll .jupyter/
