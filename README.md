@@ -51,6 +51,7 @@
 
 ## Step6 設定Spark使用 Anaconda
 + sudo nano /opt/spark-2.3.1-bin-hadoop2.7/conf/spark-env.sh
+![image](https://github.com/mv123453715/-Machine-learning-multi-person-development-system-based-on-Hadoop-and-Spark/blob/master/spark%E8%A8%AD%E5%AE%9Apython.JPG)
 + starthdfs
 + startspkb
 
