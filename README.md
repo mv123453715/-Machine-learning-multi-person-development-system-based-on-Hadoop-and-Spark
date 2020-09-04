@@ -17,7 +17,7 @@
 + [ wget https://archive.apache.org/dist/spark/spark-2.3.1/spark-2.3.1-bin-hadoop2.7.tgz]
 + [ sudo tar xvfz spark-2.3.1-bin-hadoop2.7.tgz -C /opt/]
 
-## Step3 設定spark
+## Step3 設定與啟動spark
 + [sudo nano /opt/spark-2.3.1-bin-hadoop2.7/conf/spark-env.sh]
 ####如下圖
 ![image](https://github.com/mv123453715/-Machine-learning-multi-person-development-system-based-on-Hadoop-and-Spark/blob/master/spark%E8%A8%AD%E5%AE%9A.JPG)
@@ -26,8 +26,9 @@
 + [sudo nano /opt/spark-2.3.1-bin-hadoop2.7/conf/spark-defaults.conf]
 ####如下圖
 ![image](https://github.com/mv123453715/-Machine-learning-multi-person-development-system-based-on-Hadoop-and-Spark/blob/master/spark%E8%A8%AD%E5%AE%9Aserver.JPG)
++ [startspkb]
 
-
+![image](https://github.com/mv123453715/-Machine-learning-multi-person-development-system-based-on-Hadoop-and-Spark/blob/master/%E5%95%9F%E5%8B%95spark.png)
 
 
 
