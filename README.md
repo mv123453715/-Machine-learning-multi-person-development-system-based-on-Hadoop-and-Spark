@@ -18,11 +18,11 @@
 
 ## Step3 設定spark
 + [sudo nano /opt/spark-2.3.1-bin-hadoop2.7/conf/spark-env.sh]
-![image]https://github.com/mv123453715/-Machine-learning-multi-person-development-system-based-on-Hadoop-and-Spark/blob/master/spark%E8%A8%AD%E5%AE%9A.JPG)
+![image](https://github.com/mv123453715/-Machine-learning-multi-person-development-system-based-on-Hadoop-and-Spark/blob/master/spark%E8%A8%AD%E5%AE%9A.JPG)
 + [hdfs dfs -mkdir -p /tmp/spark-events]
 + [hdfs dfs -chmod -R 777 /tmp/]
 + [sudo nano /opt/spark-2.3.1-bin-hadoop2.7/conf/spark-defaults.conf]
-![image]https://github.com/mv123453715/-Machine-learning-multi-person-development-system-based-on-Hadoop-and-Spark/blob/master/spark%E8%A8%AD%E5%AE%9Aserver.JPG)
+![image](https://github.com/mv123453715/-Machine-learning-multi-person-development-system-based-on-Hadoop-and-Spark/blob/master/spark%E8%A8%AD%E5%AE%9Aserver.JPG)
 
 
 
