@@ -35,5 +35,7 @@
 + [ wget https://repo.continuum.io/archive/Anaconda3-5.2.0-Linux-x86_64.sh -O /tmp/anaconda3.sh ]
 + [ chmod +x /tmp/anaconda3.sh ]
 + [sudo /tmp/anaconda3.sh -u ]
++ [sudo /opt/anaconda3/bin/conda update conda]
++ [sudo /opt/anaconda3/bin/conda update anaconda]
 
 
