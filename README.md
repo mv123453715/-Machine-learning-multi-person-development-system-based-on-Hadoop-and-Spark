@@ -37,5 +37,5 @@
 + sudo /tmp/anaconda3.sh -u 
 + sudo /opt/anaconda3/bin/conda update conda
 + sudo /opt/anaconda3/bin/conda update anaconda
-
++ sudo /opt/anaconda3/bin/conda upgrade python
 
