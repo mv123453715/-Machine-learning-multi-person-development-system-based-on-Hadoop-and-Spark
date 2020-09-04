@@ -38,4 +38,4 @@
 + sudo /opt/anaconda3/bin/conda update conda
 + sudo /opt/anaconda3/bin/conda update anaconda
 + sudo /opt/anaconda3/bin/conda upgrade python
-
++ /opt/anaconda3/bin/python -V
