@@ -35,6 +35,17 @@
 +  wget https://repo.continuum.io/archive/Anaconda3-5.2.0-Linux-x86_64.sh -O /tmp/anaconda3.sh 
 +  chmod +x /tmp/anaconda3.sh 
 + sudo /tmp/anaconda3.sh -u 
+
+
+## Step5 重啟Hadoop和Spark
++ stopspkb
++ stophdfs
++ exit
++ docker-compose -f spark.yml stop
++ docker-compose -f spark.yml start
+
+
+
 + sudo /opt/anaconda3/bin/conda update conda
 + sudo /opt/anaconda3/bin/conda update anaconda
 + sudo /opt/anaconda3/bin/conda upgrade python
