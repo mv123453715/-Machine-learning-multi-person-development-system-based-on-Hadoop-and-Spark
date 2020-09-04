@@ -8,7 +8,7 @@
 ## Step1 用docker安裝spark主機
 +  cd spark
 +  docker-compose -f spark.yml up -d
-####如下圖
+
 ![image](https://github.com/mv123453715/-Machine-learning-multi-person-development-system-based-on-Hadoop-and-Spark/blob/master/docker.png)
 
 
