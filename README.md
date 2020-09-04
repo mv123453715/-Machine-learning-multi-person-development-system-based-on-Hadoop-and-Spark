@@ -6,8 +6,8 @@
 ![image](https://github.com/mv123453715/-Machine-learning-multi-person-development-system-based-on-Hadoop-and-Spark/blob/master/hadoop.jpg)
  
 ## Step1 用docker安裝spark主機
-+ [ cd spark]
-+ [ docker-compose -f spark.yml up -d]
++  cd spark
++  docker-compose -f spark.yml up -d
 ####如下圖
 ![image](https://github.com/mv123453715/-Machine-learning-multi-person-development-system-based-on-Hadoop-and-Spark/blob/master/docker.png)
 
@@ -21,9 +21,9 @@
 + [sudo nano /opt/spark-2.3.1-bin-hadoop2.7/conf/spark-env.sh]
 ####如下圖
 ![image](https://github.com/mv123453715/-Machine-learning-multi-person-development-system-based-on-Hadoop-and-Spark/blob/master/spark%E8%A8%AD%E5%AE%9A.JPG)
-+ [hdfs dfs -mkdir -p /tmp/spark-events]
-+ [hdfs dfs -chmod -R 777 /tmp/]
-+ [sudo nano /opt/spark-2.3.1-bin-hadoop2.7/conf/spark-defaults.conf]
++ hdfs dfs -mkdir -p /tmp/spark-events
++ hdfs dfs -chmod -R 777 /tmp/
++ sudo nano /opt/spark-2.3.1-bin-hadoop2.7/conf/spark-defaults.conf
 ####如下圖
 ![image](https://github.com/mv123453715/-Machine-learning-multi-person-development-system-based-on-Hadoop-and-Spark/blob/master/spark%E8%A8%AD%E5%AE%9Aserver.JPG)
 + [startspkb]
@@ -32,10 +32,10 @@
 
 
 ## Step4 安裝 Anaconda
-+ [ wget https://repo.continuum.io/archive/Anaconda3-5.2.0-Linux-x86_64.sh -O /tmp/anaconda3.sh ]
-+ [ chmod +x /tmp/anaconda3.sh ]
-+ [sudo /tmp/anaconda3.sh -u ]
-+ [sudo /opt/anaconda3/bin/conda update conda]
-+ [sudo /opt/anaconda3/bin/conda update anaconda]
++  wget https://repo.continuum.io/archive/Anaconda3-5.2.0-Linux-x86_64.sh -O /tmp/anaconda3.sh 
++  chmod +x /tmp/anaconda3.sh 
++ sudo /tmp/anaconda3.sh -u 
++ sudo /opt/anaconda3/bin/conda update conda
++ sudo /opt/anaconda3/bin/conda update anaconda
 
 
