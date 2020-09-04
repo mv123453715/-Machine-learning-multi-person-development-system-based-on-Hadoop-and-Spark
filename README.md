@@ -57,4 +57,6 @@
 + pyspark --master spark://spkmb:7077 --total-executor-cores 1 --executor-cores 1 --executor-memory 512m
 
 
-
+## Step7 安裝 Hive
++ wget https://archive.apache.org/dist/hive/hive-2.3.3/apache-hive-2.3.3-bin.tar.gz
++ sudo tar xvfz apache-hive-2.3.3-bin.tar.gz -C /opt
