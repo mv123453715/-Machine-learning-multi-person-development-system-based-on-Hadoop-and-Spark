@@ -60,3 +60,20 @@
 ## Step7 安裝 Hive
 + wget https://archive.apache.org/dist/hive/hive-2.3.3/apache-hive-2.3.3-bin.tar.gz
 + sudo tar xvfz apache-hive-2.3.3-bin.tar.gz -C /opt
+
+
+## Step8 設定Jupyter Server
++ sudo nano /opt/bin/startjupyter
++ sudo chmod +x /opt/bin/startjupyter
++ hdfs dfs -mkdir /tmp/hive
++ hdfs dfs -chmod -R 777 /tmp/hive
+
+## Step9 設定Jupyter
++ 開nwe 終端機
++ ssh dsa103@localhost -p 22103+
++ jupyter notebook --generate-config
++ jupyter notebook password
++ ll .jupyter/
+
+## Step10 啟動Jupyter
++ startjupyter
