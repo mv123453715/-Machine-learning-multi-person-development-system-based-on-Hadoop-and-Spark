@@ -49,5 +49,10 @@
 + docker-compose -f spark.yml start
 
 
+## Step6 設定Spark使用 Anaconda
++ sudo nano /opt/spark-2.3.1-bin-hadoop2.7/conf/spark-env.sh
++ starthdfs
++ startspkb
+
 
 
